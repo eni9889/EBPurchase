@@ -62,4 +62,6 @@
 
 -(void) failedRestore:(EBPurchase*)ebp error:(NSInteger)errorCode message:(NSString*)errorMessage;
 
+-(void)purchaseDone;
+
 @end
